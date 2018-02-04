@@ -86,4 +86,4 @@ class BaiduBot:
 def scrape_baidu(search_term: str, pages: int, proxy: Optional[str]=None, timeout: Optional[int]=30,
                  user_agent: Optional[str]=CHROME_DEFAULT, delay: Optional[int]=0):
     b = BaiduBot(search_term, pages, proxy, timeout, user_agent, delay)
-    b.scrape_baidu()
+    return b.scrape_baidu()
