@@ -4,7 +4,7 @@ from time import sleep
 import requests
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 CHROME_DEFAULT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
 
