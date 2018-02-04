@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
   name='baidubot',
   packages=['baidubot'],
-  version='0.1.0',
+  version='0.1.1',
   description='A simple Python module to scrape search results from Baidu',
   author='Edmund Martin',
   author_email='edmartin101@googlemail.com',
